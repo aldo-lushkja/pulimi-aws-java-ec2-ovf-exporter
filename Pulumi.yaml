@@ -1,0 +1,7 @@
+name: aws-ec2-ovf-export
+runtime: java
+description: that exports an ec2 instance to an s3 bucket
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-java
